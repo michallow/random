@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 10px;
+}
+
+.show-result {
+	font-size: 40px;
+	padding: 25px;
+	border-radius: 25px;
+	background: none;
+	border: 1px solid;
+}
+
+.show-result:hover {
+	transition: 3s;
+	background-color: rgb(131, 134, 187);
+	color: rgb(43, 45, 73);
+}
+
+.result-box {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.result {
+	font-size: 30px;
+}
